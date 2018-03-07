@@ -16,58 +16,76 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
         crossorigin="anonymous"></script>
 </head>
-    <body background="./assets/images/bg.png">
-<body>
-    <div class="container">
 
-        <div class="jumbotron">
+<body background="./assets/images/bg.png">
 
-            <h1 class="display-4" style="text-align:center;">
-                <i class="far fa-1x fa-newspaper" ></i>&nbsp;<b>New York Times Search</b></h1>
+    <body>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="jumbotron">
+
+                        <h1 class="display-4" style="text-align:center;">
+                            <i class="far fa-1x fa-newspaper"></i>&nbsp;
+                            <b>New York Times Search</b>
+                        </h1>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" style="font-size:35px;">
+                            <i class="far fa-1x fa-newspaper"></i>&nbsp;Search Parameters:</div>
+                        <div class="panel-body">
+
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Search Term:</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="i.e 'Tom Cruise'">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>5</option>
+                                        <option>10</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Start Year (Optional):</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">End Year (Optional):</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                                <button type="button" class="btn btn-secondary">
+                                    <i class="fas fa-search"></i>&nbsp;Search</button>
+                                <button type="button" class="btn btn-secondary">
+                                    <i class="fas fa-trash-alt"></i>&nbsp;Clear Results</button>
+
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
 
         </div>
-        
-        <div class="panel panel-primary">
-                <div class="panel-heading" style="font-size:35px;"> <i class="far fa-1x fa-newspaper" ></i>&nbsp;Search Parameters:</div>
-                <div class="panel-body">
-              
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Search Term:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="i.e 'Tom Cruise'">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>1</option>
-                    <option>5</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Start Year (Optional):</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">End Year (Optional):</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-            </div>
-            <button type="button" class="btn btn-secondary"><i class="fas fa-search"></i>&nbsp;Search</button>
-            <button type="button" class="btn btn-secondary"><i class="fas fa-trash-alt"></i>&nbsp;Clear Results</button>
-            
 
 
-        </form>
-        </div>
-        </div>
-        
-
-
-
-    </div>
-    </div>
-    </div>
-
-</body>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
