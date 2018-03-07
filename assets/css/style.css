@@ -1,0 +1,24 @@
+.container {
+    margin:0px 100px 0px 300px;
+}
+
+.jumbotron {
+    color:white;
+    background-color:#1d3984 !important;
+    width:120rem;
+    margin-bottom:30px;
+    
+}
+
+.panel-primary>.panel-heading {
+    background-color: #1d3984 !important;
+    width:120rem;
+    
+}
+.form-group {
+    width:116rem;
+}
+
+.panel-primary {
+    width:120rem;
+}
